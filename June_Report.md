@@ -1,3 +1,34 @@
+Over the course of the GPU course, I engaged in learning how to write and optimize GPU kernels and leveraging advanced features for performance improvements. Key topics that were touched on in the work and learnings include:
+
+High Level Hardware overview
+
+Kernel Optimization: Explored techniques to optimize CUDA and HIP kernels for AMD GPUs, focusing on memory access patterns, thread utilization, and SIMD efficiency.
+
+Concurrency and Streams: I decided to take one of the examples from Ossian's gpu handbook to look into the behavior of stream priority for the concurrent problem. Investigated the use of the priority streams to overlap computation and data transfers, enhancing overall throughput and latency hiding.
+
+Performance Profiling: Utilized the profiling tool rocprof to analyze kernel performance.
+
+Memory Management: Practiced efficient memory allocation strategies using HIP APIs, including managed memory for automatic data migration and explicit memory copies for performance-critical operations.
+
+Grid and Block Configuration: Experimented with optimal grid and block sizes to fully utilize GPU resources, ensuring high occupancy and minimal warp divergence.
+
+Discussions and Mentorship:
+
+Engaged in detailed discussions with Ossian and peers by listening in on more advanced topics related to the stencil project including exploring issues related to kernel fusion, memory bandwidth optimization, and achieving maximum compute unit utilization.
+O believe that I benefited from the mentorship sessions. I want to continue the training by focusing on even more real-world GPU programming challenges and strategies for overcoming performance bottlenecks.
+
+Future Plans:
+Two problems that I am working on now while Ossian is on leave -
+Problem 1: Take an array and reverse the order of the array 1 2 3 4 to 4 3 2 1 (1D)
+
+Problem 2: N X N matrix, write a code that rotates that code 90 degrees in either direction that I pick. Counter clock and clock-wise rotation. (2D)
+
+I want to further explore advanced CUDA and HIP features such as cooperative groups, dynamic parallelism, and mixed-precision computing for enhanced performance and versatility.
+
+And also dig deeper into investigating GPU-accelerated algorithms for machine learning and scientific computing applications, leveraging insights gained in kernel optimization and memory management.
+
+This course has provided a solid lower level in GPU programming techniques and tools to build on to tackle complex computational problems efficiently on GPU architectures. Moving forward, I aim to apply these skills to broader projects within our team, contributing to performance improvements and innovation in GPU-accelerated computing.
+
 
 
 
