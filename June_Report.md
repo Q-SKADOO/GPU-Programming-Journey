@@ -19,12 +19,12 @@ Experimented with optimal grid and block sizes to fully utilize GPU resources, e
 
 Most of the work that I did focused on Chapter 3 of the handbook.
 
-Discussions and Mentorship:
+# Discussions and Mentorship:
 
 Engaged in detailed discussions with Ossian and peers by listening in on more advanced topics related to the stencil project including exploring issues related to kernel fusion, memory bandwidth optimization, and achieving maximum compute unit utilization.
 O believe that I benefited from the mentorship sessions. I want to continue the training by focusing on even more real-world GPU programming challenges and strategies for overcoming performance bottlenecks.
 
-Future Plans:
+## Future Plans:
 Two problems that I am working on now while Ossian is on leave -
 Problem 1: Take an array and reverse the order of the array 1 2 3 4 to 4 3 2 1 (1D)
 
