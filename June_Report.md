@@ -17,7 +17,7 @@ Threadorder
 ![image](https://github.com/Q-SKADOO/GPU-Programming-Journey/assets/112571800/ab1528aa-b922-48c7-8581-63235702be2f)
 Inorderkernels
 
-'''c++
+```c++
 #include <hip/hip_runtime.h>
 #include <iostream>
 #include <cstdlib> // Include for random number generation
@@ -193,7 +193,7 @@ int main() {
 
     return 0;
 }
-'''
+```
 
 ![image](https://github.com/Q-SKADOO/GPU-Programming-Journey/assets/112571800/4498472d-24ae-4fc9-923a-2fbd953281e7)
 Threadblock
