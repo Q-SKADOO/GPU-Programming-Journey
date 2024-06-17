@@ -30,6 +30,8 @@ And also dig deeper into investigating GPU-accelerated algorithms for machine le
 This course has provided a solid lower level in GPU programming techniques and tools to build on to tackle complex computational problems efficiently on GPU architectures. Moving forward, I aim to apply these skills to broader projects within our team, contributing to performance improvements and innovation in GPU-accelerated computing.
 
 
+#Some Example codes from the handbook that I modified
+
 
 
 
