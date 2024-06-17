@@ -1,16 +1,21 @@
 Over the course of the GPU course, I engaged in learning how to write and optimize GPU kernels and leveraging advanced features for performance improvements. Key topics that were touched on in the work and learnings include:
 
-High Level Hardware overview
+### High Level Hardware overview
 
-Kernel Optimization: Explored techniques to optimize CUDA and HIP kernels for AMD GPUs, focusing on memory access patterns, thread utilization, and SIMD efficiency.
+### Kernel Optimization: 
+Explored techniques to optimize CUDA and HIP kernels for AMD GPUs, focusing on memory access patterns, thread utilization, and SIMD efficiency.
 
-Concurrency and Streams: I decided to take one of the examples from Ossian's gpu handbook to look into the behavior of stream priority for the concurrent problem. Investigated the use of the priority streams to overlap computation and data transfers, enhancing overall throughput and latency hiding.
+### Concurrency and Streams: 
+I decided to take one of the examples from Ossian's gpu handbook to look into the behavior of stream priority for the concurrent problem. Investigated the use of the priority streams to overlap computation and data transfers, enhancing overall throughput and latency hiding.
 
-Performance Profiling: Utilized the profiling tool rocprof to analyze kernel performance.
+### Performance Profiling: 
+Utilized the profiling tool rocprof to analyze kernel performance.
 
-Memory Management: Practiced efficient memory allocation strategies using HIP APIs, including managed memory for automatic data migration and explicit memory copies for performance-critical operations.
+### Memory Management: 
+Practiced efficient memory allocation strategies using HIP APIs, including managed memory for automatic data migration and explicit memory copies for performance-critical operations.
 
-Grid and Block Configuration: Experimented with optimal grid and block sizes to fully utilize GPU resources, ensuring high occupancy and minimal warp divergence.
+### Grid and Block Configuration: 
+Experimented with optimal grid and block sizes to fully utilize GPU resources, ensuring high occupancy and minimal warp divergence.
 
 Most of the work that I did focused on Chapter 3 of the handbook.
 
