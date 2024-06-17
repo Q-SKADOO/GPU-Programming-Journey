@@ -12,6 +12,8 @@ Memory Management: Practiced efficient memory allocation strategies using HIP AP
 
 Grid and Block Configuration: Experimented with optimal grid and block sizes to fully utilize GPU resources, ensuring high occupancy and minimal warp divergence.
 
+Most of the work that I did focused on Chapter 3 of the handbook.
+
 Discussions and Mentorship:
 
 Engaged in detailed discussions with Ossian and peers by listening in on more advanced topics related to the stencil project including exploring issues related to kernel fusion, memory bandwidth optimization, and achieving maximum compute unit utilization.
@@ -30,7 +32,7 @@ And also dig deeper into investigating GPU-accelerated algorithms for machine le
 This course has provided a solid lower level in GPU programming techniques and tools to build on to tackle complex computational problems efficiently on GPU architectures. Moving forward, I aim to apply these skills to broader projects within our team, contributing to performance improvements and innovation in GPU-accelerated computing.
 
 
-#Some Example codes from the handbook that I modified
+# Some Example codes from the handbook that I modified
 
 
 
@@ -38,17 +40,17 @@ This course has provided a solid lower level in GPU programming techniques and t
 
 
 
-
+## Concurrent kernels
 ![image](https://github.com/Q-SKADOO/GPU-Programming-Journey/assets/112571800/08bf9bab-a62a-4666-b3dc-adbc57fc31fe)
-Concurrent
 
 
+## Thread Order
 ![image](https://github.com/Q-SKADOO/GPU-Programming-Journey/assets/112571800/31d0fe03-2025-4d43-8760-411e2a41f6c1)
-Threadorder
 
 
+## In-order kernels
 ![image](https://github.com/Q-SKADOO/GPU-Programming-Journey/assets/112571800/ab1528aa-b922-48c7-8581-63235702be2f)
-Inorderkernels
+
 
 ```c++
 #include <hip/hip_runtime.h>
@@ -228,9 +230,10 @@ int main() {
 }
 ```
 
+## Thread blocks
 ![image](https://github.com/Q-SKADOO/GPU-Programming-Journey/assets/112571800/4498472d-24ae-4fc9-923a-2fbd953281e7)
-Threadblock
+
 
 ![image](https://github.com/Q-SKADOO/GPU-Programming-Journey/assets/112571800/2c80ebe8-c53a-4ffe-a5a4-66ea4852b58a)
 
-Delayloop
+
